@@ -1,0 +1,39 @@
+{"books": [{
+  "rental_number":1,
+  "description": "2 Bed 1 Bath",
+  "renter": "Joseph",
+  "distance_to_unh_in_miles": 2,
+  "Address":"18 ABC  Boston Post RoadWest Haven "
+
+},
+{
+  "rental_number":2,
+  "description": "3 Bed 2 Bath",
+  "renter": "Tony",
+  "distance_to_unh_in_miles": 5,
+  "Address": "15 DVF Campbelll Avenue West Haven"
+},
+{
+  "rental_number":3,
+  "description": "3 Bed 1.5 Bath",
+  "renter": "Bill",
+  "distance_to_unh_in_miles": 9.5,
+  "Address": "18 DVF Campbelll Avenue West Haven"
+
+},
+{
+  "rental_number":4,
+  "description": "1 Bed 1 Bath",
+  "renter": "Kristina",
+  "distance_to_unh_in_miles": 1.5,
+  "Address": "15  WestWood Avenue West Haven"
+
+},
+{
+  "rental_number":5,
+  "description": "5 Bed  2 Bath",
+  "renter": "Ram",
+  "distance_to_unh_in_miles": 5.6,
+  "Address": " 93  Campbelll Avenue West Haven"
+
+}]}
