@@ -1,7 +1,6 @@
 <template>
     <div>
-        
-        <div v-for="book of books" :key="book.rental_number" >
+        <div v-for="book of books" :key="book.movie_showtime" >
             <SingleBook :book=book />
         </div>
 

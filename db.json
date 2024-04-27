@@ -1,39 +1,37 @@
 {"books": [{
-  "rental_number":1,
-  "description": "2 Bed 1 Bath",
-  "renter": "Joseph",
-  "distance_to_unh_in_miles": 2,
-  "Address":"18 ABC  Boston Post RoadWest Haven "
+  "movie_showtime":"10:00 AM",
+  "movie_details": "HongKong",
+  "Location": "Hamden",
+  "Screening_rooms": 1
 
 },
 {
-  "rental_number":2,
-  "description": "3 Bed 2 Bath",
-  "renter": "Tony",
-  "distance_to_unh_in_miles": 5,
-  "Address": "15 DVF Campbelll Avenue West Haven"
-},
-{
-  "rental_number":3,
-  "description": "3 Bed 1.5 Bath",
-  "renter": "Bill",
-  "distance_to_unh_in_miles": 9.5,
-  "Address": "18 DVF Campbelll Avenue West Haven"
+  "movie_showtime":"1:00 PM",
+  "movie_details": "Maverick",
+  "Location": "Hartford",
+  "Screening_rooms": 3
 
 },
 {
-  "rental_number":4,
-  "description": "1 Bed 1 Bath",
-  "renter": "Kristina",
-  "distance_to_unh_in_miles": 1.5,
-  "Address": "15  WestWood Avenue West Haven"
+  "movie_showtime":"6:00 PM",
+  "movie_details": "Mission Impossible",
+  "Location": "Milford",
+  "Screening_rooms": 3
 
 },
 {
-  "rental_number":5,
-  "description": "5 Bed  2 Bath",
-  "renter": "Ram",
-  "distance_to_unh_in_miles": 5.6,
-  "Address": " 93  Campbelll Avenue West Haven"
+  "movie_showtime":"6:00 PM",
+  "movie_details": "Einstein and the Bomb",
+  "Location": "Stamford",
+  "Screening_rooms": 6
+
+},
+{
+  "movie_showtime":"8:00 PM",
+  "movie_details": "Oppenheimer",
+  "Location": "Boston",
+  "Screening_rooms": 5
 
 }]}
+
+

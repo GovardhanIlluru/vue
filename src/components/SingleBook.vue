@@ -1,18 +1,16 @@
 <template>
-    <div  :class="book.distance_to_unh_in_miles<=5 ? 'green' :'red ' " >
+  
     <div class="container">
-    <h2>Rental Number:</h2>
-    <div class="details">{{ book.rental_number }}</div>
-    <h2>Rental Description:</h2>
-    <div class="details">{{ book.description }}</div>
-    <h2>Renter Name:</h2>
-    <div class="details">{{ book.renter }}</div>
-    <h2>Distance from UNH:</h2>
-    <div class="details">{{ book.distance_to_unh_in_miles }}</div>
-    <h2>Address:</h2>
-    <div class="details">{{ book.Address }}</div>
+    <h2>Movie Showtime:</h2>
+    <div class="details">{{ book.movie_showtime }}</div>
+    <h2>Movie Details:</h2>
+    <div class="details">{{ book.movie_details }}</div>
+    <h2>Location:</h2>
+    <div class="details">{{ book.Location }}</div>
+    <h2>Screening Rooms</h2>
+    <div class="details">{{ book.Screening_rooms }}</div>
+
   </div>
-</div>
 
 </template>
 <script>
@@ -42,12 +40,17 @@ h4{
   margin: 2px
 }
 .container {
-        display: grid;
-        grid-template-columns: max-content auto;
-        row-gap: 10px;
-        padding: 15px;
-        gap: 30px;
-    }
+    display: grid;
+    grid-template-columns: max-content auto;
+    row-gap: 10px;
+    padding: 15px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: lightblue;
+}
+
 
 h2 {
         text-align: right;
@@ -60,28 +63,6 @@ h2 {
     }
 
 
-.red{
-  background-color: #ce4257;
-  width: 40%;
-  margin: 10px auto;
-  
-}
-
-.green:hover{
-background-color: #e8fccf;
-transition-duration: 300ms;
-  border-radius: 5px;
-  scale: 105%;
-
-}
-
-.red:hover {
-  background-color: #ffa69e;
-  transition-duration: 300ms;
-  border-radius: 5px;
-  scale: 105%;
-
-}
 @media screen and (max-width: 768px) {
   .container {
     display: grid;

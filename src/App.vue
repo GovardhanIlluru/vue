@@ -1,7 +1,7 @@
 <template>
 
   <!--Step 3 use the component-->
-  <MyHeader bookName="Rental Properties near UNH" authorName="" yourName="Write your Name"/> 
+  <MyHeader bookName="Movie Shows" authorName="" yourName="Write your Name"/> 
   <BookBox :books=books />
  
 </template>
@@ -29,14 +29,25 @@ export default{
  methods:{
    //promises
    async fetchbooks(){
-     const res = await fetch("https://we-a4un.onrender.com/api");
+     const res = await fetch("https://node-ak4u.onrender.com/api");
      const data = await res.json()
      console.log(data)
+     console.log("Adada")
+     console.log(data[0].books)
+     console.log("Data type of data[0].books:", typeof data[0].books);
+
+
+
      return data[0].books
    }
  },
  async created(){
-   this.books = await this.fetchbooks();
+  try {
+    this.books = await this.fetchbooks();
+  } catch (error) {
+    console.error("Error fetching books:", error);
+  }
+   
 
  }
 

@@ -1,9 +1,8 @@
 <template>
     <div>
-        
-        <h2>{{ bookName }}</h2>
-        <h3>{{ authorName }}</h3>
-    </div>
+        <h2>{{ movie_details }}</h2>
+
+</div>
 </template>
 
 <script>
@@ -11,8 +10,8 @@
 export default{
     name:'MyHeader',
     props:{
-        bookName: String,
-        authorName: String
+        movie_details: String,
+        
     }
 }
 </script>
